@@ -2,7 +2,7 @@ import numpy as np
 import pickle
 import streamlit as st
 
-loaded_model=pickle.load(open('trained_model (1).sav','rb'))
+loaded_model=pickle.load(open('https://github.com/Poornesh5656/Diabetes_prediction/blob/main/trained_model%20(1).sav','rb'))
 
 def diabetes_prediction(input_data):
      
